@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God of War Ragnarok</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="mascara-formulario"></div>
+
+    <img src="God of War titulo.webp" alt="titulo-God-of-war">
+    <section>
+        <div class="caixa-direita">
+            <p> </b>Um dos jogos mais esperados do ano, God of War: Ragnarök já está disponível para PS4 e PS5. O game
+                da
+                Sony,
+                produzido pelo Santa Monica Studio, traz a mais nova aventura de Kratos, o Deus da Guerra, e seu filho,
+                Atreus,
+                tentando impedir o fim dos Nove Reinos, que tem relação com deuses e entidades da mitologia nórdica.</b>
+            </p>
+        </div>
+
+
+
+        <img class="imagem-kratos" src="Kratos e Atreus.webp" alt="imagem-Kratos-e-Atreus">
+
+
+
+        <div class="caixa-video">
+            <video src="instasave.mp4" autoplay loop muted></video>
+            <div class="mascara-video"></div>
+        </div>
+
+        <form class="formulario" action="https://formsubmit.co/rafaelscorssi9@gmail.com" method="post">
+            <input placeholder="Seu Nome">
+            <input placeholder="Seu Telefone">
+            <input placeholder="Email...">
+            <textarea placeholder="Digite seu problema aqui"></textarea>
+            <button onclick="sumirformulario()">ENVIAR</button>
+            <h1>Fale conosco!</h1>
+        </form>
+        <button onclick="CliqueinoBotao()" class="botao-fale-conosco">Fale conosco</button>
+    </section>
+
+</body>
+
+<script>
+    let mascara = document.querySelector(".mascara-formulario")
+
+    let formulario = document.querySelector(".formulario")
+    function CliqueinoBotao() {
+        formulario.style.left = "600px"
+        mascara.style.visibility = "visible"
+    }
+    function sumirformulario() {
+        formulario.style.left = "-290px"
+        mascara.style.visibility = "hidden"
+    }
+
+
+</script>
+
+
+</html>

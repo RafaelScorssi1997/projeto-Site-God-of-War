@@ -1,0 +1,121 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    height: 100%;
+}
+
+.imagem-kratos {
+    width: 500px;
+
+}
+
+.caixa-direita {
+    width: 550px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 300px;
+    color: white;
+}
+
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.mascara-video {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99)15%, rgba(10, 12, 16, 0.7)50%, rgba(10, 12, 16, 0.99)85%);
+}
+
+.formulario {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 380px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px;
+    position: fixed;
+    left: -290px;
+    transition: left 1s linear;
+    z-index: 4;
+}
+
+input {
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: blue;
+
+}
+
+textarea {
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid;
+    color: blue;
+}
+
+button {
+    background: blue;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(93, 107, 197);
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.botao-fale-conosco {
+    position: fixed;
+    left: 300px;
+    top: 480px;
+    width: 150px;
+}
+
+.mascara-formulario {
+    z-index: 3;
+    visibility: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99)15%, rgba(10, 12, 16, 0.7)50%, rgba(10, 12, 16, 0.99)85%);
+}
